@@ -11,7 +11,7 @@ void setup()
 void loop()
 {
  VAR = digitalRead(BOTAO); 
- if (VAR == 1 && VAR2 == 0) //Se botão estiver apertado (HIGH)
+ if (VAR == 1 && VAR2 == 0) //se o botão nao estiver pressionado, o led irá estar acesso
  {
  ESTADO_BOTAO = 1 - ESTADO_BOTAO;
    delay(20);
